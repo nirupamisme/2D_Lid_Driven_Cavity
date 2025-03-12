@@ -1,4 +1,4 @@
-CC = g++-14
+CC = g++
 
 # Folders
 BDIR = bin
@@ -8,10 +8,10 @@ ODIR = obj
 SDIR = src
 
 # Flags
-CFLAGS = -I$(IDIR) -std=c++11 -O3 -fopenmp
+CFLAGS = -I$(IDIR) -std=c++11 -O3
 
 # For clang compiler
-# CFLAGS = -I$(IDIR) -std=c++11 -O3 -Xclang -fopenmp
+# CFLAGS = -I$(IDIR) -std=c++11 -O3
 
 # Macros
 _DEPS = LBM.h IOobject.h	# Add header files here
