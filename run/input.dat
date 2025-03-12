@@ -1,0 +1,9 @@
+nx=101
+ny=101
+utop=0.1
+Re=100
+timeStep=40000
+omegaP=1
+omega3=1
+omega4=1
+solver=2
